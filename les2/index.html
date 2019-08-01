@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>les1</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
   <style>
     * {
       box-sizing: border-box;
@@ -20,8 +22,8 @@
 </head>
 <body>
   <div id="app">
-    <input type="text" v-model = "name">
-    <h2>Hello, {{ name }} </h2>
+    <button class="btn"> button </button>
+    <h2 v-show="true">Hello, {{ name }} </h2>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
